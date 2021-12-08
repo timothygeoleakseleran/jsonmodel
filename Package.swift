@@ -1,9 +1,25 @@
-//
-//  Package.swift
-//  JSONModel
-//
-//  Created by Timothy Kosakoy on 08/12/21.
-//  Copyright © 2021 com.jsonmodel. All rights reserved.
-//
+// swift-tools-version:5.3
+import PackageDescription
 
-import Foundation
+let package = Package(
+    name: "JSONModel",
+    platforms: [
+        .iOS(.v9)
+    ],
+    products: [
+        .library(
+            name: "JSONModel",
+            targets: ["JSONModel"]
+        )
+    ],
+    targets: [
+        .target(
+            name: "JSONModel",
+            dependencies: [],
+            path: "JSONModel",
+            exclude: ["Info.plist"],
+            resources: []
+        )
+    ],
+    swiftLanguageVersions: [.v5]
+)
