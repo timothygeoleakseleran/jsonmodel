@@ -103,6 +103,7 @@
 		92C9BC791B19A5B600D79B06 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
 		92C9BC7A1B19A5B600D79B06 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		92C9BC7B1B19A5B600D79B06 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		D55906512760D5F8008D38D6 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +177,7 @@
 		92C9BC331B19A51100D79B06 = {
 			isa = PBXGroup;
 			children = (
+				D55906512760D5F8008D38D6 /* Package.swift */,
 				1A5B9D3F1D1C8D72006FE4B1 /* JSONModel */,
 				01D689FC1E42150100CFE82F /* JSONModel-mac */,
 				01D68A1B1E421A8400CFE82F /* JSONModel-watchOS */,
@@ -408,6 +410,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 92C9BC331B19A51100D79B06;
