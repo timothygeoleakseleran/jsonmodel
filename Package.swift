@@ -17,8 +17,7 @@ let package = Package(
             name: "JSONModel",
             dependencies: [],
             path: "JSONModel",
-            exclude: ["Info.plist"],
-            resources: []
+            exclude: ["Info.plist"]
         )
     ],
     swiftLanguageVersions: [.v5]
