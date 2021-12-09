@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "JSONModel",
-            targets: ["JSONModel", "JSONModelNetworking", "JSONModelTransformations"]
+            targets: ["JSONModel"]
         )
     ],
     targets: [
