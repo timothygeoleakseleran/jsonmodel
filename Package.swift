@@ -15,8 +15,15 @@ let package = Package(
     targets: [
         .target(
             name: "JSONModel",
-            dependencies: [],
             path: "JSONModel"
+        ),
+        .target(
+            name: "JSONModelNetworking",
+            path: "JSONModelNetworking"
+        ),
+        .target(
+            name: "JSONModelTransformations",
+            path: "JSONModelTransformations"
         )
     ],
     swiftLanguageVersions: [.v5]
