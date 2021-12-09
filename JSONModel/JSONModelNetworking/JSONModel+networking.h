@@ -3,8 +3,8 @@
 //  JSONModel
 //
 
-#import "JSONModel.h"
 #import "JSONHTTPClient.h"
+#import "JSONModel.h"
 
 typedef void (^JSONModelBlock)(id model, JSONModelError *err) DEPRECATED_ATTRIBUTE;
 
