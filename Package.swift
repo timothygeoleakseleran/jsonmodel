@@ -9,21 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "JSONModel",
-            targets: ["JSONModel"]
+            targets: ["JSONModel", "JSONModelNetworking", "JSONModelTransformations"]
         )
     ],
     targets: [
         .target(
             name: "JSONModel",
             path: "JSONModel"
-        ),
-        .target(
-            name: "JSONModelNetworking",
-            path: "JSONModelNetworking"
-        ),
-        .target(
-            name: "JSONModelTransformations",
-            path: "JSONModelTransformations"
         )
     ],
     swiftLanguageVersions: [.v5]
